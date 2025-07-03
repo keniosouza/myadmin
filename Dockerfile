@@ -5,18 +5,7 @@ FROM php:8.4-apache
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libjpeg-dev \
-    libonig-dev \
-    libxml2-dev \
-    zip \
-    unzip \
-    curl \
-    git \
-    libzip-dev \
-    libfreetype6-dev \
-    libjpeg62-turbo-dev \
-    && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install -j$(nproc) gd \
-    && docker-php-ext-install pdo pdo_mysql mysqli zip
+    libonig-dev     libxml2-dev     zip     unzip     curl     git     libzip-dev     libfreetype6-dev     libjpeg62-turbo-dev     && docker-php-ext-configure gd --with-freetype --with-jpeg     && docker-php-ext-install -j$(nproc) gd mbstring     && docker-php-ext-install pdo pdo_mysql mysqli zip     && docker-php-ext-enable opcache
 
 
 # Habilita o módulo de reescrita do Apache (útil para Laravel ou outros frameworks)
@@ -32,8 +21,7 @@ COPY ./apache/000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY . /var/www/html/
 
 # Define permissões apropriadas
-RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 755 /var/www/html
+RUN chown -R www-data:www-data /var/www/html     && find /var/www/html -type d -exec chmod 755 {} +     && find /var/www/html -type f -exec chmod 644 {} +
 
 # Define o diretório de trabalho
 WORKDIR /var/www/html
