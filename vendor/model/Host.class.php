@@ -13,19 +13,19 @@ class Host
         #return $dsn = (string)"mysql:host=db;dbname=mysupport;port=3306;charset=utf8";
 
         #Acesso externo
-        return $dsn = (string)"mysql:host=192.185.216.185;dbname=softw846_admin;port=3306;charset=utf8";
+        return $dsn = (string)"mysql:host=api_mysql;dbname=myadmin;port=3306;charset=utf8";
     }
 
     /** Pego o usuário de acesso **/
     public function getUser()
     {
-        return $user = (string)"softw846_admin";
+        return $user = (string)"mysql";
     }
 
     /** Pego a senha de acesso **/
     public function getPassword()
     {
-        return $password = (string)"@Sun147oi.";
+        return $password = (string)"sun147oi";
     }
 
     /** Pego o charset de acesso **/
