@@ -196,6 +196,7 @@ class ClientProducts
 							 c.email,
 							 c.contract_type,
 							 c.contract_date,
+                             cp.maturity,
 							 (select cp.maturity from client_products cp where cp.clients_id = c.clients_id limit 0, 1) as due_date		
 					  from clients c 
 					  left join client_products cp on c.clients_id = cp.clients_id
