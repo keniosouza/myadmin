@@ -388,7 +388,7 @@ class Main
  
 
     /** paginação */
-    public function pagination(int $numberRecords, int $start, int $max, int $page, string $queryString, string $message, string $form=null)
+    public function pagination(int $numberRecords, int $start, int $max, int $page, string $queryString, string $message, ?string $form=null)
     {   
 
         /** Quantidade de registros junto ao banco de dados */
