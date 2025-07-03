@@ -5,7 +5,7 @@
     "title" : "MySupport - Administração",
     "version" : "1",
     "release" : "0",
-    "url_aplication" : "http://localhost/myadmin/",
+    "url_aplication" : "https://api-myadmin.gbrqne.easypanel.host/",
     "session_time" : "30",
     "mail": {
       "host": "mail.softwiki.com.br",
