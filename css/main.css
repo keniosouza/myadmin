@@ -141,3 +141,7 @@ table.table-mini > tfoot > tr > th:first-child {
 table.table-mini > tbody > tr > td:not(:first-child) {
     min-width: 15px;
 }
+.sidebar-custom-color {
+    background-color: #343C40 !important;
+    background-image: none !important;
+}
