@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="27.1741mm" height="38.8672mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 550.32 787.12"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#48639A;stroke-width:15.19;stroke-miterlimit:22.9256}
+    .fil1 {fill:#48639A}
+    .fil0 {fill:url(#id0)}
+    .fil2 {fill:url(#id1)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="405.31" y1="743.42" x2="144.05" y2="44.05">
+   <stop offset="0" style="stop-opacity:1; stop-color:#D9E9F7"/>
+   <stop offset="0.4" style="stop-opacity:1; stop-color:#EBF3FA"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FEFEFE"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="506.14" y1="207.66" x2="374.98" y2="42.85">
+   <stop offset="0" style="stop-opacity:1; stop-color:#D5E1F3"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FEFEFE"/>
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M28.36 7.94l315.9 0c0,0 197.51,216.17 197.51,216.17l0 534.65c0,11.42 -9.34,20.76 -20.76,20.76l-492.64 0c-11.42,0 -20.76,-9.34 -20.76,-20.76l0 -730.06c0,-11.42 9.34,-20.76 20.76,-20.76z"/>
+  <polygon class="fil1" points="232.73,330.37 490.99,330.37 490.99,348.15 232.73,348.15 "/>
+  <polygon class="fil1" points="232.73,425.34 490.99,425.34 490.99,443.12 232.73,443.12 "/>
+  <polygon class="fil1" points="232.73,520.3 490.99,520.3 490.99,538.09 232.73,538.09 "/>
+  <polygon class="fil1" points="232.73,615.27 490.99,615.27 490.99,633.05 232.73,633.05 "/>
+  <polygon class="fil1" points="105.25,330.35 217.45,330.35 217.45,348.13 105.25,348.13 "/>
+  <polygon class="fil1" points="105.25,425.31 217.45,425.31 217.45,443.09 105.25,443.09 "/>
+  <polygon class="fil1" points="105.25,520.28 217.45,520.28 217.45,538.06 105.25,538.06 "/>
+  <polygon class="fil1" points="105.25,615.25 217.45,615.25 217.45,633.03 105.25,633.03 "/>
+  <polygon class="fil1" points="57.77,330.35 90.59,330.35 90.59,348.13 57.77,348.13 "/>
+  <polygon class="fil1" points="57.77,425.31 90.59,425.31 90.59,443.09 57.77,443.09 "/>
+  <polygon class="fil1" points="57.77,520.28 90.59,520.28 90.59,538.06 57.77,538.06 "/>
+  <polygon class="fil1" points="57.77,615.25 90.59,615.25 90.59,633.03 57.77,633.03 "/>
+  <polygon class="fil2 str0" points="347.56,221.57 537.55,222.98 533.78,215.99 352,13.28 345.18,10.83 "/>
+ </g>
+</svg>

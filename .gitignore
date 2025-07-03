@@ -1,0 +1,12 @@
+# Ignora a pasta de arquivos armazenados
+#app/storage/files/
+
+# Ignora a pasta de arquivos temporários
+app/storage/temp/
+
+bkps
+
+.vscode
+
+# Ignora arquivo de configuração
+#app/config/

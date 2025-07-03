@@ -1,0 +1,27 @@
+.bg-message-left{
+
+    background-color: #435F7A !important;
+    color: #FFFFFF !important;
+
+}
+
+.bg-message-right{
+
+    background-color: #FFFFFF !important;
+    color: #435F7A !important;
+
+}
+
+.bg-chat{
+
+    padding: 25px 35px;
+    background-color: #E6EAEA;
+
+}
+
+.chat{
+
+    max-height: 400px;
+    overflow-y: scroll
+
+}

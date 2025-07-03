@@ -1,0 +1,63 @@
+{
+
+  "app" : {
+
+    "title" : "MySupport - Administração",
+    "version" : "1",
+    "release" : "0",
+    "url_aplication" : "http://localhost/myadmin/",
+    "session_time" : "30",
+    "mail": {
+      "host": "mail.softwiki.com.br",
+      "username": "naoresponda@softwiki.com.br",
+      "password": "@Star147oi.",
+      "port": "465",
+      "from": {
+        "email": "naoresponda@softwiki.com.br",
+        "name": "Administrativo Softwiki"
+      },
+      "messages":{
+        "new_user": "PHRhYmxlIHdpZHRoPSI2MDBweDsiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSI1IiBzdHlsZT0iYmFja2dyb3VuZDojRkZGOyBmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIj4KICA8dHIgc3R5bGU9ImJhY2tncm91bmQ6IzIwNTlBRTsgY29sb3I6ICNGRkY7ICIgYWxpZ249ImNlbnRlciI+CiAgICA8dGQgc3R5bGU9ImJvcmRlci1ib3R0b206I0Y2MCBzb2xpZCAzcHgiPjxpbWcgc3JjPSJodHRwczovL3NvZnR3aWtpLmNvbS5ici9sb2dvX2VtYWlsLnBuZyIgc3R5bGU9Im1heC13aWR0aDozMTZweDsgbWFyZ2luOjVweCIgLz48L3RkPgogIDwvdHI+CiAgPHRyPgogICAgPHRkIHN0eWxlPSJwYWRkaW5nOjUwcHg7IGZvbnQtc2l6ZToxNnB4OyBiYWNrZ3JvdW5kLWNvbG9yOiNGNUY1RjUiPk9sw6EsIHNlZ3VlIGRhZG9zIGRlIGFjZXNzbyBwYXJhIGFtYmllbnRlIGRlIGltcHJlc3PDo28gZGUgYm9sZXRvcy4KICAgIAogICAgCTx1bCBzdHlsZT0ibGlzdC1zdHlsZS10eXBlOm5vbmUiPgogICAgICAgIAk8bGk+RS1tYWlsOiB7W0VNQUlMXX08YnIgLz4KICAgICAgICAJPC9saT4KICAgICAgICAgICAgPGxpPlNlbmhhOiB7W1NFTkhBXX08L2xpPgogICAgICAgIDwvdWw+CiAgICAgICAgPHA+CiAgICAgICAgCUVzdGUgc2Vyw6EgbyBzZXUgcHJpbWVpcm8gYWNlc3NvLCBjYWRhc3RyZSB1bWEgc2VuaGEgcGFyYSB0ZXIgYWNlc3NvIGRlZmluaXRpdm8gYW8gYW1iaWVudGUuCgkJCTxici8+PGJyLz4KCQkJQSBzZW5oYSBwcmVjaXNhIHRlciBsZXRyYXMsIG7Dum1lcm9zIGUsIHNlIHBvc3PDrXZlbCwgY2FyYWN0ZXJlcyBlc3BlY2lhaXMsIGUgdW0gbcOheGltbyBkZSAxMCBkw61naXRvcy4gCiAgICAgICAgPC9wPgogICAgICAgIAo8YnIvPgogICAgICAgIAogICAgICAgIDxjZW50ZXI+PGEgaHJlZj0iaHR0cHM6Ly9jbGllbnRlcy5zb2Z0d2lraS5jb20uYnIiIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOm5vbmU7IGJhY2tncm91bmQtY29sb3I6IzBGODQ2MTsgY29sb3I6ICNGRkY7IGN1cnNvcjpwb2ludGVyOyBmb250LXNpemU6MTZweDsgYm9yZGVyOiBub25lOyBwYWRkaW5nOiAxMHB4OyBib3JkZXItcmFkaXVzOiAxMHB4OyI+Q0xJUVVFIEFRVUk8L2E+PC9jZW50ZXI+CiAgICAgICAgPGJyLz4KICAgICAgICBDYXNvIG8gYm90w6NvIG7Do28gZnVuY2lvbmUsIGNvcGllIGUgY29sZSBvIGxpbmsgYWJhaXhvIG5vIHNldSBuYXZlZ2Fkb3I6IDxici8+CiAgICAgICAgPGNlbnRlcj5odHRwczovL2NsaWVudGVzLnNvZnR3aWtpLmNvbS5icjwvY2VudGVyPgogICAgPC90ZD4KICA8L3RyPgogIDx0ciBzdHlsZT0iYmFja2dyb3VuZDojMjA1OUFFOyBjb2xvcjogI0ZGRjsgdGV4dC1hbGlnbjpjZW50ZXIiPgogICAgPHRkIHN0eWxlPSJib3JkZXItdG9wOiNGNjAgc29saWQgM3B4OyBwYWRkaW5nOjEwcHgiPlByZWNpc2EgZGUgYWp1ZGE/IENvbnRhdGUtbm9zLCA8YSBocmVmPSJodHRwczovL2FwaS53aGF0c2FwcC5jb20vc2VuZC8/cGhvbmU9NTU2Mjk4MTA1NjAwNCZ0ZXh0PVByZWNpc28lMjBkZSUyMGFqdWRhJTIwY29tJTIwZW1pc3MlQzMlQTNvJTIwZGUlMjBib2xldG8mYXBwX2Fic2VudD0wIiB0YXJnZXQ9Il9ibGFuayIgc3R5bGU9InRleHQtZGVjb3JhdGlvbjpub25lOyBjb2xvcjogI0ZGRjsgY3Vyc29yOnBvaW50ZXI7IGZvbnQtc2l6ZToxNnB4OyBib3JkZXI6IG5vbmU7Ij5jbGlxdWUgYXF1aTwvYT48L3RkPgogIDwvdHI+CiAgPHRyPgogICAgPHRkPjxici8+PGJyLz5BdGVuY2lvc2FtZW50ZSw8L3RkPgogIDwvdHI+CiAgPHRyPgogICAgPHRkPgogICAgCiAgICAKICAgICAgICA8dGFibGUgc3R5bGU9IndpZHRoOiAxMDAlOyI+CiAgICAgICAgCiAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgCgkJCQk8dGQgd2lkdGg9IjMzJSI+PC90ZD4KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgPHRkIHdpZHRoPSIzMyUiPgogICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICA8cD48c3Ryb25nPkpPU8OJIEVVUklQRURFUzwvc3Ryb25nPjxiciAvPgogICAgICAgICAgICAgICAgICAgICAgPHN0cm9uZz5BZG1pbmlzdHJhdGl2b188L3N0cm9uZz48YnIgLz4KICAgICAgICAgICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgICAgICAgICAgPHN0cm9uZyBzdHlsZT0iY29sb3I6ICNGNjAiPnRlbF88L3N0cm9uZz4mbmJzcDsrNTUgNjIgMzA4OC0zNTUzPGJyIC8+CiAgICAgICAgICAgICAgICAgICAgPHN0cm9uZyBzdHlsZT0iY29sb3I6ICNGNjAiPnNpdGVfPC9zdHJvbmc+Jm5ic3A7PGEgaHJlZj0iaHR0cDovL3d3dy5zb2Z0d2lraS5jb20uYnIvIiB0YXJnZXQ9Il9ibGFuayI+d3d3LnNvZnR3aWtpLmNvbS5icjwvYT48L3A+ICAgICAgICAKICAgICAgICAgICAgCiAgICAgICAgICAgIAk8L3RkPgogICAgICAgICAgICAKCQkJCTx0ZCB3aWR0aD0iMzMlIj48L3RkPgogICAgICAgICAgICAKICAgICAgICAgICAgPC90cj4KICAgICAgICAKICAgICAgICA8L3RhYmxlPgogICAgCgkJPC90ZD4KICA8L3RyPgo8L3RhYmxlPg==",
+        "ticket_delay" : "PHRhYmxlIHdpZHRoPSI2MDBweDsiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSI1IiBzdHlsZT0iYmFja2dyb3VuZDojRkZGOyBmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIj4KICA8dHIgc3R5bGU9ImJhY2tncm91bmQ6IzIwNTlBRTsgY29sb3I6ICNGRkY7ICIgYWxpZ249ImNlbnRlciI+CiAgICA8dGQgc3R5bGU9ImJvcmRlci1ib3R0b206I0Y2MCBzb2xpZCAzcHgiPjxpbWcgc3JjPSJodHRwczovL3NvZnR3aWtpLmNvbS5ici9sb2dvX2VtYWlsLnBuZyIgc3R5bGU9Im1heC13aWR0aDozMTZweDsgbWFyZ2luOjVweCIgLz48L3RkPgogIDwvdHI+CiAgPHRyPgogICAgPHRkIHN0eWxlPSJwYWRkaW5nOjUwcHg7IGZvbnQtc2l6ZToxNnB4OyBiYWNrZ3JvdW5kLWNvbG9yOiNGQ0ZDRkM7IHRleHQtYWxpZ246anVzdGlmeSI+PHA+T2zDoSwge1tOT01FX0NMSUVOVEVdfSA8L3A+CiAgICAgIDxwPkVzdGUgw6kgYXBlbmFzIHVtIGxlbWJyZXRlIHJlZmVyZW50ZSBhbyBib2xldG8gbm8gdmFsb3IgZGUgUiQge1tWQUxPUl9CT0xFVE9dfSBxdWUgY29ycmVzcG9uZGUgw6AgY29udHJhdGHDp8OjbyB7W1BST0RVVE9fTk9NRV19IGNvbSB2ZW5jaW1lbnRvIHBhcmEge1tEQVRBX1ZFTkNJTUVOVE9dfS4gIDwvcD4KICAgICAgPHA+PGJyLz4KICAgICAgICAKICAgICAgPC9wPgogICAgICA8Y2VudGVyPjxhIGhyZWY9Imh0dHBzOi8vY2xpZW50ZXMuc29mdHdpa2kuY29tLmJyIiB0YXJnZXQ9Il9ibGFuayIgc3R5bGU9InRleHQtZGVjb3JhdGlvbjpub25lOyBiYWNrZ3JvdW5kLWNvbG9yOiMwRjg0NjE7IGNvbG9yOiAjRkZGOyBjdXJzb3I6cG9pbnRlcjsgZm9udC1zaXplOjE2cHg7IGJvcmRlcjogbm9uZTsgcGFkZGluZzogMTBweDsgYm9yZGVyLXJhZGl1czogMTBweDsiPkNMSVFVRSBBUVVJPC9hPjwvY2VudGVyPgogICAgICAgIDxici8+CiAgICAgICAgQ2FzbyBvIGJvdMOjbyBuw6NvIGZ1bmNpb25lLCBjb3BpZSBlIGNvbGUgbyBsaW5rIGFiYWl4byBubyBzZXUgbmF2ZWdhZG9yOiA8YnIvPgogICAgICAgIDxjZW50ZXI+aHR0cHM6Ly9jbGllbnRlcy5zb2Z0d2lraS5jb20uYnI8L2NlbnRlcj4KICAgIDwvdGQ+CiAgPC90cj4KICA8dHIgc3R5bGU9ImJhY2tncm91bmQ6IzIwNTlBRTsgY29sb3I6ICNGRkY7IHRleHQtYWxpZ246Y2VudGVyIj4KICAgIDx0ZCBzdHlsZT0iYm9yZGVyLXRvcDojRjYwIHNvbGlkIDNweDsgcGFkZGluZzoxMHB4Ij5QcmVjaXNhIGRlIGFqdWRhPyBDb250YXRlLW5vcywgPGEgaHJlZj0iaHR0cHM6Ly9hcGkud2hhdHNhcHAuY29tL3NlbmQvP3Bob25lPTU1NjI5ODEwNTYwMDQmdGV4dD1QcmVjaXNvJTIwZGUlMjBhanVkYSUyMGNvbSUyMGVtaXNzJUMzJUEzbyUyMGRlJTIwYm9sZXRvJmFwcF9hYnNlbnQ9MCIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246bm9uZTsgY29sb3I6ICNGRkY7IGN1cnNvcjpwb2ludGVyOyBmb250LXNpemU6MTZweDsgYm9yZGVyOiBub25lOyI+Y2xpcXVlIGFxdWk8L2E+PC90ZD4KICA8L3RyPgogIDx0cj4KICAgIDx0ZD48YnIvPjxici8+QXRlbmNpb3NhbWVudGUsPC90ZD4KICA8L3RyPgogIDx0cj4KICAgIDx0ZD4KICAgIAogICAgCiAgICAgICAgPHRhYmxlIHN0eWxlPSJ3aWR0aDogMTAwJSI+CiAgICAgICAgCiAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgCgkJCQk8dGQgd2lkdGg9IjMzJSI+PC90ZD4KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgPHRkIHdpZHRoPSIzMyUiPgogICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICA8cD48c3Ryb25nPkpPU8OJIEVVUklQRURFUzwvc3Ryb25nPjxiciAvPgogICAgICAgICAgICAgICAgICAgICAgPHN0cm9uZz5BZG1pbmlzdHJhdGl2bzwvc3Ryb25nPjxiciAvPgogICAgICAgICAgICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgICAgICAgICAgICA8c3Ryb25nIHN0eWxlPSJjb2xvcjogI0Y2MCI+dGVsXzwvc3Ryb25nPiZuYnNwOys1NSA2MiAzMDg4LTM1NTM8YnIgLz4KICAgICAgICAgICAgICAgICAgICA8c3Ryb25nIHN0eWxlPSJjb2xvcjogI0Y2MCI+c2l0ZV88L3N0cm9uZz4mbmJzcDs8YSBocmVmPSJodHRwOi8vd3d3LnNvZnR3aWtpLmNvbS5ici8iIHRhcmdldD0iX2JsYW5rIj53d3cuc29mdHdpa2kuY29tLmJyPC9hPjwvcD4gICAgICAgIAogICAgICAgICAgICAKICAgICAgICAgICAgCTwvdGQ+CiAgICAgICAgICAgIAoJCQkJPHRkIHdpZHRoPSIzMyUiPjwvdGQ+CiAgICAgICAgICAgIAogICAgICAgICAgICA8L3RyPgogICAgICAgIAogICAgICAgIDwvdGFibGU+CiAgICAKCQk8L3RkPgogIDwvdHI+CjwvdGFibGU+"
+      }       
+    },   
+    "security" : {"method": "aes-256-cbc",
+                  "first_key": "1B0B043A1C185F261D",
+                  "second_key": "1B0B043A0C05422C1E0A",
+                  "hash": "43170E01071F0D3B1437"
+                },       
+    "start_module" : {"table" : "financial_movements", 
+                      "action" : "financial_movements_resume",
+                      "message" : "Carregando resumo financeiro",
+                      "folder" : "view"
+                    },
+    "ticket" : {"numero_contrato" : 410098,
+                "modalidade" : 1,
+                "numero_conta_corrente" : 48984,
+                "especie_documento" : "DM",
+                "numero_cpfcnpj" : "18780618000187",
+                "nome" : "SOFTWIKI SUPORTE TECNOLOGICO LTDA",
+                "instrucao1" : "Após o vencimento cobrar multa de 2%",
+                "instrucao2" : "e juros de mora de 0,033% ao dia",
+                "multa" : 0.02,
+                "mora" : 0.033
+               },                    
+    "datagrid" : {"rows": 20,
+                  "pagination": 10},  
+    "modules" : {"users" : "allowed", 
+                 "users_acl" : "allowed",
+                 "schedules" : "allowed",
+                 "clients" : "allowed",
+                 "documents" : "allowed",
+                 "documents_categorys" : "allowed",
+                 "documents_categorys_tags" : "allowed",
+                 "financial_accounts" : "allowed",
+                 "financial_entries" : "allowed",
+                 "financial_outputs" : "allowed",
+                 "financial" : "allowed"                 
+                },
+    "ged" : "../../ged"              
+  }
+
+
+}

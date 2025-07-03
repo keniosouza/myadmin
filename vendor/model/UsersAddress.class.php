@@ -1,0 +1,29 @@
+<?php
+/**
+* Classe UsersAddress.class.php
+* @filesource
+* @autor		Kenio de Souza
+* @copyright	Copyright 2021 - Souza Consultoria Tecnológica
+* @package		vendor
+* @subpackage	model
+* @version		1.0
+* @date		27/08/2021
+*/
+
+
+/** Defino o local onde esta a classe */
+namespace vendor\model;
+
+class UsersAddress{	/** Declaro as vaiavéis da classe */	private $connection = null;	private $sql = null;	private $stmt = null;	private $start = null;	private $max = null;	private $limit = null;	private $usersAddressId = null;	private $usersId = null;	private $zipCode = null;	private $address = null;	private $complement = null;	private $district = null;	private $city = null;	private $country = null;	private $dateRegister = null;	/** Construtor da classe */
+	function __construct()	{		/** Cria o objeto de conexão com o banco de dados */		$this->connection = new Mysql();	}
+	/** Lista os registros do banco de dados com limitação */	public function Get(int $usersAddressId)	{		/** Parametros de entrada */		$this->usersAddressId = $usersAddressId;		/** Consulta SQL */		$this->sql = 'select * from users_address  					  where users_address_id = :users_address_id';		/** Preparo o SQL para execução */		$this->stmt = $this->connection->connect()->prepare($this->sql);		/** Preencho os parâmetros do SQL */		$this->stmt->bindParam(':users_address_id', $this->usersAddressId);		/** Executo o SQL */		$this->stmt->execute();		/** Retorno o resultado */		return $this->stmt->fetchObject();	}
+
+	/** Lista todos os egistros do banco com ou sem paginação*/	public function All(int $start, int $max)	{		/** Parametros de entrada */		$this->start = $start;		$this->max = $max;		/** Verifico se há paginação */		if($this->max){        	$this->limit = "limit $this->start, $this->max";        }		/** Consulta SQL */		$this->sql = 'select * from users_address '. $this->limit;		/** Preparo o SQL para execução */		$this->stmt = $this->connection->connect()->prepare($this->sql);		/** Executo o SQL */		$this->stmt->execute();		/** Retorno o resultado */		return $this->stmt->fetchAll(\PDO::FETCH_OBJ);	}
+
+	/** Conta a quantidades de registros */	public function Count()	{		/** Consulta SQL */		$this->sql = 'select count(users_address_id) as qtde					  from users_address ';		/** Preparo o SQL para execução */		$this->stmt = $this->connection->connect()->prepare($this->sql);		/** Executo o SQL */		$this->stmt->execute();		/** Retorno o resultado */		return $this->stmt->fetchObject()->qtde;	}
+
+	/** Insere um novo registro no banco */	public function Save(int $usersAddressId, string $usersId, string $zipCode, string $address, string $complement, string $district, string $city, string $country, string $dateRegister)	{		/** Parametros */		$this->usersAddressId = $usersAddressId;		$this->usersId = $usersId;		$this->zipCode = $zipCode;		$this->address = $address;		$this->complement = $complement;		$this->district = $district;		$this->city = $city;		$this->country = $country;		$this->dateRegister = $dateRegister;			/** Verifica se o ID do registro foi informado */		if($this->usersAddressId > 0){			/** Consulta SQL */			$this->sql = 'update users_address set users_id = :users_id,									   	     zip_code = :zip_code,									   	     address = :address,									   	     complement = :complement,									   	     district = :district,									   	     city = :city,									   	     country = :country,									   	     date_register = :date_register					  	  where users_address_id = :users_address_id';		}else{//Se o ID não foi informado, grava-se um novo registro			/** Consulta SQL */			$this->sql = 'insert into users_address(users_address_id, 											  users_id, 											  zip_code, 											  address, 											  complement, 											  district, 											  city, 											  country, 											  date_register 								 	 ) values (:users_address_id, 									  		   :users_id,									  		   :zip_code,									  		   :address,									  		   :complement,									  		   :district,									  		   :city,									  		   :country,									  		   :date_register)';		}		/** Preparo o sql para receber os valores */		$this->stmt = $this->connection->connect()->prepare($this->sql);		/** Preencho os parâmetros do SQL */		$this->stmt->bindParam('users_address_id', $this->usersAddressId);		$this->stmt->bindParam('users_id', $this->usersId);		$this->stmt->bindParam('zip_code', $this->zipCode);		$this->stmt->bindParam('address', $this->address);		$this->stmt->bindParam('complement', $this->complement);		$this->stmt->bindParam('district', $this->district);		$this->stmt->bindParam('city', $this->city);		$this->stmt->bindParam('country', $this->country);		$this->stmt->bindParam('date_register', $this->dateRegister);		/** Executo o SQL */		return $this->stmt->execute();	}
+
+	/** Deleta um determinado registro no banco de dados */	function Delete(int $usersAddressId)	{		/** Parametros de entrada */		$this->usersAddressId = $usersAddressId;		/** Consulta SQL */		$this->sql = 'delete from users_address					  where  users_address_id = :users_address_id';		/** Preparo o sql para receber os valores */		$this->stmt = $this->connection->connect()->prepare($this->sql);		/** Preencho os parâmetros do SQL */		$this->stmt->bindParam('users_address_id', $this->usersAddressId);		/** Executo o SQL */		return $this->stmt->execute();	}
+
+	/** Fecha uma conexão aberta anteriormente com o banco de dados */	function __destruct()	{		$this->connection = null;    }}

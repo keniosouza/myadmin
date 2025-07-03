@@ -1,0 +1,40 @@
+$fp = fopen('request.txt', 'w+');
+$str = null;
+$var = null;
+$varItem = null;
+$table = "ClientBudgets";
+    
+//for($i=0; $i<count($_POST); $i++){
+$arr = array_keys($_POST);
+$i=0;
+foreach ($arr as $Result) {    
+
+    $var = explode('_', $Result);
+
+    foreach($var as $var){
+        $varItem .= $i > 0 ? ucfirst($var) : $var;
+        $i++;
+    }
+    $i=0;
+    $str = "$".$varItem." = isset(\$_POST['".$Result."']) ? (string)filter_input(INPUT_POST, '".$Result."', FILTER_SANITIZE_SPECIAL_CHARS) : 0;\r";
+    fwrite($fp, $str);
+    unset($varItem);    
+}
+fwrite($fp, "\r\r");
+
+foreach ($arr as $Result) {    
+
+    $var = explode('_', $Result);
+
+    foreach($var as $var){
+        $varItem .= $i > 0 ? ucfirst($var) : $var;
+        $i++;
+    }
+    $i=0;
+    $str = "\$".$table."Validate->set".$varItem."($".$varItem."); \r";
+    fwrite($fp, $str);
+    unset($varItem);
+}
+
+
+fclose($fp);
